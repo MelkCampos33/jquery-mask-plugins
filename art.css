@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    margin-bottom: 40px;
+}
+
+button {
+
+    font-size: 15px;
+    color: var(--white);
+    font-weight: bold;
+
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-radius: 4px;
+
+    background-color:#c0b1b153;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f2a2a2f;
+}
+
+
+
+form {
+    max-width: 360px;
+}
+
+.form-label {
+    margin-bottom: 16px;
+}
+
+.form-label label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-label input,
+.form-label textarea {
+
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-label textarea {
+    resize: none;  /* cancela aquela espanção de tamanho da textarea */
+    height: 120px;
+}
+
+form button {
+    max-width: 120px;
+}
